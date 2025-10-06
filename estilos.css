@@ -1,0 +1,72 @@
+body {
+  background-color: #F6E8D6; /* Beige otoñal */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form-buscador {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.buscador-form {
+  display: flex;
+  gap: 10px;
+  background-color: #fffaf4;
+  padding: 10px 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(139, 94, 60, 0.2); /* Marrón suave */
+  align-items: center;
+}
+
+.buscador {
+  padding: 8px 12px;
+  border: 1px solid #E7993A;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+.buscador:focus {
+  outline: none;
+  border-color: #8B5E3C;
+  box-shadow: 0 0 5px rgba(139, 94, 60, 0.4);
+}
+
+.grid-gifs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.gif{
+  border-radius: 10px;
+  width: 300px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.boton-buscar {
+  background-color: #E7993A;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-buscar:hover {
+  background-color: #8B5E3C;
+}
+
+h2{
+  color:rgb(151, 123, 9);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
